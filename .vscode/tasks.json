@@ -6,6 +6,12 @@
             "type": "shell",
             "command": "scripts/develop",
             "problemMatcher": []
+        },
+        {
+            "label": "Upgrade Home Assistant to latest (beta)",
+            "type": "shell",
+            "command": "scripts/upgrade",
+            "problemMatcher": []
         }
     ]
 }
