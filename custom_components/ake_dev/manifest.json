@@ -1,8 +1,8 @@
 {
   "domain": "ake_dev",
-  "name": "Integration blueprint",
+  "name": "Ake dev",
   "codeowners": [
-    "@ludeeus"
+    "@astrandb"
   ],
   "config_flow": true,
   "documentation": "https://github.com/astrandb/devcontainer",
