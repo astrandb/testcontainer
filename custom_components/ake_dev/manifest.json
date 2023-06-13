@@ -1,0 +1,12 @@
+{
+  "domain": "ake_dev",
+  "name": "Integration blueprint",
+  "codeowners": [
+    "@ludeeus"
+  ],
+  "config_flow": true,
+  "documentation": "https://github.com/astrandb/devcontainer",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/astrandb/devcontainer/issues",
+  "version": "0.0.0"
+}
