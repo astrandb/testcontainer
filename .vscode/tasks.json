@@ -12,6 +12,12 @@
             "type": "shell",
             "command": "scripts/upgrade",
             "problemMatcher": []
+        },
+        {
+            "label": "Lint with ruff",
+            "type": "shell",
+            "command": "scripts/lint",
+            "problemMatcher": []
         }
     ]
 }
