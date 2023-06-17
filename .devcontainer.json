@@ -2,8 +2,12 @@
     "name": "astrandb/devcontainer",
     "image": "mcr.microsoft.com/vscode/devcontainers/python:0-3.11-bullseye",
     "postCreateCommand": "scripts/setup",
-    "forwardPorts": [8123],
-    "appPort": ["9130:8123"],
+    "forwardPorts": [
+        8123
+    ],
+    "appPort": [
+        "9130:8123"
+    ],
     "portsAttributes": {
         "8123": {
             "label": "Home Assistant internal",
@@ -27,6 +31,9 @@
             ],
             "settings": {
                 "files.eol": "\n",
+                "files.insertFinalNewline": true,
+                "files.trimFinalNewlines": false,
+                "editor.renderFinalNewline": "dimmed",
                 "editor.tabSize": 4,
                 "python.pythonPath": "/usr/bin/python3",
                 "python.analysis.autoSearchPaths": false,
