@@ -8,8 +8,10 @@ __pycache__
 
 # misc
 .coverage
-.vscode
+.vscode/*
+!.vscode/tasks.json
 coverage.xml
+.ruff_cache
 
 
 # Home Assistant configuration
